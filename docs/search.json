@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "hmt_web",
+    "title": "Help Me Think",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Introduction\nAdd intro here\n\n\n\nExamples of Customized Content Generation\nWe have applied this strategy to create the following applications. These are deployed as Streamlit apps on Azure.\n\nPoem Generator App\nStory Generator App\nCollege Essay Generator App\n\n\n\n\nVideo Demos\nYou can click below to view recordings of these applications in action:\n\nPoem Generator Demo Video\nStory Generator Demo Video\nCollege Essay Generator Demo Video\n\n\n\n\nOur Approach\n\nTwo-step prompting strategy\nOnline learning to incrementally improve few-shot learning examples\nEasily generalizable to other tasks\n\n\n\n\nAuthors"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,40 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Help Me Think",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "index.html#examples-of-customized-content-generation",
+    "href": "index.html#examples-of-customized-content-generation",
+    "title": "Help Me Think",
+    "section": "Examples of Customized Content Generation",
+    "text": "Examples of Customized Content Generation"
+  },
+  {
+    "objectID": "index.html#video-demos",
+    "href": "index.html#video-demos",
+    "title": "Help Me Think",
+    "section": "Video Demos",
+    "text": "Video Demos"
+  },
+  {
+    "objectID": "index.html#how-this-works",
+    "href": "index.html#how-this-works",
+    "title": "Help Me Think",
+    "section": "How this works",
+    "text": "How this works"
+  },
+  {
+    "objectID": "index.html#authors",
+    "href": "index.html#authors",
+    "title": "Help Me Think",
+    "section": "Authors",
+    "text": "Authors"
   }
 ]

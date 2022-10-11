@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: c4ed2cc9-7c71-4ab8-8e03-5d2ea78a14a2
+      url: 'https://quartopub.com/sites/helpmethink/hmt_web'

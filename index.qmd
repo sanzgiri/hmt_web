@@ -1,7 +1,36 @@
 ---
-title: "hmt_web"
+title: "Help Me Think"
 ---
+##### A Simple Prompting Strategy for Non-experts to Create Customized Content with Models
+___
 
-This is a Quarto website.
+### Introduction
+Add intro here
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+___
+### Examples of Customized Content Generation
+We have applied this strategy to create the following applications. These are deployed as Streamlit apps on Azure.
+
+* [Poem Generator App](helpmethink.eastus2.cloudapp.azure.com:8505)
+* [Story Generator App](helpmethink.eastus2.cloudapp.azure.com:8506)
+* [College Essay Generator App](helpmethink.eastus2.cloudapp.azure.com:8507)
+
+___
+
+### Video Demos
+You can click below to view recordings of these applications in action:
+
+* Poem Generator Demo Video
+* Story Generator Demo Video
+* College Essay Generator Demo Video
+
+___
+### Our Approach
+
+* Two-step prompting strategy
+* Online learning to incrementally improve few-shot learning examples
+* Easily generalizable to other tasks
+
+___
+### Authors
