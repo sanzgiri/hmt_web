@@ -1,1 +1,1 @@
-Sitemap: https://quartopub.com/sites/helpmethink/hmt_web/sitemap.xml
+Sitemap: https://sanzgiri.github.io/hmt_web/sitemap.xml
