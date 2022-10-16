@@ -5,32 +5,61 @@ title: "Help Me Think"
 ___
 
 ### Introduction
-Add intro here
+Large Language Models such as GPT-3 excel at many NLP tasks but controlling the text generated and customizing
+the content is still a challenge. Existing prompting techniques are task-specific and not generalizable.
+Here we demonstrate an approach that non-experts can use for content generation that can be applied for
+a wide range of tasks.
 
 
 ___
 ### Examples of Customized Content Generation
-We have applied this strategy to create the following applications. These are deployed as Streamlit apps on Azure.
+We applied our technique to create the content generation applications listed below. The tasks chosen include those
+with creative content (poem, story, essay writing) as well as factual material (personal bio generation). The
+applications have been deployed as Streamlit apps and run on Azure.
+
+In each of the apps, you will be asked a series of questions (generated dynamically, based on the task) and based on
+your response the app will generate customized content.
 
 * [Poem Generator App](helpmethink.eastus2.cloudapp.azure.com:8505)
-* [Story Generator App](helpmethink.eastus2.cloudapp.azure.com:8506)
-* [College Essay Generator App](helpmethink.eastus2.cloudapp.azure.com:8507)
+* [Biography Generator App](helpmethink.eastus2.cloudapp.azure.com:8506)
+* [Story Generator App](helpmethink.eastus2.cloudapp.azure.com:8507)
+* [College Essay Generator App](helpmethink.eastus2.cloudapp.azure.com:8508)
+
+The next step is to implement these applications as an interactive conversational chat bot where the AI bot asks
+questions and generates content based on the responses, giving the user a chance to edit and suggest changes to the
+output from the bot.
 
 ___
 
 ### Video Demos
-You can click below to view recordings of these applications in action:
+We have also recorded demos of these apps and you can watch them from the links below.
 
-* Poem Generator Demo Video
-* Story Generator Demo Video
-* College Essay Generator Demo Video
+* [Poem Generator Demo Video](https://drive.google.com/file/d/1Qto2YMAWSgcqivRvw6YsUGJBmh4pDWn3/view?usp=sharing)
+* [Biography Generator Demo Video](https://drive.google.com/file/d/1SXT2eebjsWYAx6DsddNrAqCTYh3aZVTt/view?usp=sharing)
+* [Story Generator Demo Video](https://drive.google.com/file/d/1GhEovdVR_A2mAtwIBwUNBMB1a3eR7uez/view?usp=sharing)
+* [College Essay Generator Demo Video](https://drive.google.com/file/d/1V2PvF6d7qSiZScPNF98EAIWWROeNpEI_/view?usp=sharing)
 
 ___
 ### Our Approach
 
-* Two-step prompting strategy
-* Online learning to incrementally improve few-shot learning examples
-* Easily generalizable to other tasks
+We have used a novel approach in creating these applications:
+
+* Two-step prompting strategy: one for dynamically generating a set of questions appropriate to the task based on the
+description of the task and the second for combining the responses to those questions in an output format that is
+appropriate to the task.
+
+* Online learning to incrementally improve the few-shot learning examples provided to the model: given that there are
+limitations on the size of the prompt, we provide a curated set of training examples. These come from voting/labeling by
+experts from past output of the app itself.
+
+* Easily generalizable to other tasks: we have demonstrated that the approach works for creative as well as factual
+content and is generalizable.
 
 ___
 ### Authors
+
+
+---
+### References
+
+*  [Help Me Think paper on arxiv](https://arxiv.org/pdf/2208.08232.pdf)

@@ -1,1 +1,1 @@
-Sitemap: https://c4ed2cc9-7c71-4ab8-8e03-5d2ea78a14a2.netlify.app/sitemap.xml
+Sitemap: https://quartopub.com/sites/helpmethink/hmt_web/sitemap.xml
