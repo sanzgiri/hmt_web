@@ -25,7 +25,7 @@ your response the app will generate customized content.
 * [Story Generator App](helpmethink.eastus2.cloudapp.azure.com:8507)
 * [College Essay Generator App](helpmethink.eastus2.cloudapp.azure.com:8508)
 
-The next step is to implement these applications as an interactive conversational chat bot where the AI bot asks
+The next step will be to implement these applications with an interactive conversational chat bot where the AI bot asks
 questions and generates content based on the responses, giving the user a chance to edit and suggest changes to the
 output from the bot.
 
